@@ -1,0 +1,21 @@
+name: Heartbite
+version: 1.0
+main: com.g2806.Heartbite.Heartbite
+api-version: 1.21
+commands:
+    givevitalapple:
+        description: Gives a Vital Apple that increases hearts.
+        usage: /<command> <player> <hearts>
+        permission: heartbite.give
+    givecursedapple:
+        description: Gives a Cursed Apple that reduces hearts.
+        usage: /<command> <player> <hearts>
+        permission: heartbite.give
+    resethearts:
+        description: Resets a player's max health to normal.
+        usage: /<command> <player>
+        permission: heartbite.give
+permissions:
+    heartbite.give:
+        description: Allows use of Heartbite commands
+        default: op
